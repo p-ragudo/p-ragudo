@@ -2,7 +2,7 @@
 
 <p align="center">
   Backend-leaning fullstack and cloud developer building with C# / .NET.<br/>
-  4th-year Computer Science student (Software Engineering) · DOST Scholar · Philippines
+  Computer Science (Software Engineering)
 </p>
 
 <p align="center">
@@ -13,25 +13,22 @@
 ---
 
 <h3 align="center"><a href="https://paoloragudo.com">paoloragudo.com</a> portfolio and blog website coming soon!</h3>
-
 <br>
 
 ## 👨‍💻 What I Do
 
-I build across the stack: full-stack apps, distributed systems, and cloud infrastructure.
-- ⚙️ **Backend & Systems:** Deep into **C# / ASP.NET Core** for APIs and services. Fascinated by system internals, networking, and writing software that handles data cleanly under load.
+I build full-stack apps and systems, but spend most of my time down in the backend and the infrastructure keeping things running:
 
-- ☁️ **Cloud & Self-Hosting:** Getting my hands dirty with Linux servers, VPS setups, Docker, Nginx reverse proxies, and Cloudflare. Microsoft **AZ-900** certified, and learning how to host, wire up, and harden environments myself.
-
+- ⚙️ **Backend & Systems:** Deep into **C# / ASP.NET Core** for APIs and services. Interested in system internals, networking, and writing software that handles data cleanly under load.
+- ☁️ **Cloud & Self-Hosting:** Getting my hands dirty with Linux servers, VPS setups, Docker, Nginx reverse proxies, and Cloudflare. Learning how to host, wire up, and harden environments myself.
 - 🔍 **Thesis / Search:** Building a multi-tenant **RAG** engine with hybrid retrieval and semantic caching (our capstone happens to be in **Python / FastAPI**).
-
-- 🧪 **Under the Hood:** Writing a Redis clone in **Go** to get a better grip on low-level runtime internals, TCP sockets, and custom wire protocols.
+- 🧪 **Under the Hood:** Writing a Redis clone in **Go** to get a better grip on runtime internals, TCP sockets, and custom wire protocols.
 
 ---
 
-### 📌 Background
-- **BS Computer Science (Software Engineering)** @ Manuel S. Enverga University Foundation (Class of 2027)
-- Consistent University Scholar & Dean's Lister across all semesters
+### 📌 Background & Credentials
+- **BS Computer Science (Software Engineering)** @ Manuel S. Enverga University Foundation ('27)
+- DOST Scholar · Consistent University Scholar & Dean's Lister across all semesters
 - Microsoft Certified: Azure Fundamentals (AZ-900)
 
 ## Tech Stack
@@ -43,9 +40,10 @@ I build across the stack: full-stack apps, distributed systems, and cloud infras
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
 
-**Backend**  
+**Backend & Real-time**  
 ![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=flat&logo=dotnet&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![SignalR](https://img.shields.io/badge/SignalR-512BD4?style=flat&logo=dotnet&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
 
 **Infra, Networking & Cloud**  
@@ -65,38 +63,26 @@ I build across the stack: full-stack apps, distributed systems, and cloud infras
 ![Astro](https://img.shields.io/badge/Astro-BC52EE?style=flat&logo=astro&logoColor=white)
 ![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat&logo=react&logoColor=61DAFB)
 
-## Featured projects
+## Featured Projects
 
 | Project | What it is | Stack |
 | --- | --- | --- |
-| **University RAG Inquiry System** *(capstone thesis)* | Multi-tenant RAG-as-a-service. Tenants submit URLs to ingest and get a public chat interface for their own users. It uses question-augmented indexing, hybrid retrieval (dense + BM25/SPLADE fused with RRF, then cross-encoder reranking), and Redis semantic caching. | FastAPI, Python, Qdrant, Redis |
-| [**TrackFlow**](https://github.com/p-ragudo/TrackFlow) | Expense tracker that saves to Google Sheets so the data is easy to analyze. Shipped to production, an Android APK built via EAS, and I use it daily. | ASP.NET Core, React Native (Expo), Google Sheets API, Docker |
-| [**TicketQueueSystem**](https://github.com/p-ragudo/TicketQueueSystem) | Real-time queue management dashboard with live state sync over WebSockets, plus background workers for ticket lifecycle transitions. | ASP.NET Core, React, SignalR, Tailwind CSS |
-| **Loan & Payment Management App** | Mobile app for microloan tracking and payment collection, backed by a REST API with two-way Google Sheets sync. | ASP.NET Core, React Native, TypeScript |
-| [**backend-projects**](https://github.com/p-ragudo/backend-projects) | A growing collection of projects for learning backend development with C# and .NET. | C#, .NET |
-| [**paoloragudo.com**](https://github.com/p-ragudo/paoloragudo.com) | Coming soon! My personal website, portfolio, and technical blog. | Astro |
+| **University RAG Inquiry System** *(Capstone)* | Multi-tenant RAG-as-a-service. Features question-augmented indexing, hybrid retrieval (dense + BM25/SPLADE fused with RRF, reranked via cross-encoders), and Redis semantic caching. | FastAPI, Python, Qdrant, Redis |
+| [**TrackFlow**](https://github.com/p-ragudo/TrackFlow) | Personal expense tracker with Google Sheets API sync. Built an Android APK via EAS and hosted the backend on a containerized setup for daily personal use. | ASP.NET Core, React Native (Expo), Google Sheets API, Docker |
+| [**TicketQueueSystem**](https://github.com/p-ragudo/TicketQueueSystem) | Real-time queue management system with live multi-client state sync over WebSockets/SignalR and background lifecycle workers. | ASP.NET Core, React, SignalR, Tailwind CSS |
+| [**paoloragudo.com**](https://github.com/p-ragudo/paoloragudo.com) | Personal engineering portfolio and technical writeups. | Astro |
 
-## Experience & recognition
+## Experience & Recognition
 
-- 🧪 **Data Modeling Intern (Fellowship), Eskwelabs Cohort 10**, Jun–Aug 2026 (remote). Wrote Python scripts to synthesize realistic sales data with promo timing, seasonality, and cannibalization effects. Built n8n pipelines that generate case questions, rubrics, and cheatsheets from source documents.
+- 🧪 **Data Modeling Intern (Fellowship)** @ Eskwelabs Cohort 10 (Jun–Aug 2026). Synthesized realistic retail datasets (seasonality, cannibalization) using Python; automated rubric and assessment generation via n8n pipelines.
 - 🏆 **SIKAPTala National Hackathon**, Top 7 Finalist (2026)
 - 🏆 **CodeChum National Programming Competition**, Top 10 Finalist (2024)
-- 📜 **Azure Fundamentals (AZ-900)**, Microsoft (2026)
 - 📜 **Fullstack Development Bootcamp**, OpeniT (2026)
 - 📜 **Software Engineering Specialization**, HKUST via Coursera (2026)
 
-## Outside of code
+## Outside of Code
 
-Away from the keyboard I build historical dioramas and scale models, practice calligraphy in old scripts, and read ancient and medieval history and philosophy. I'm also learning Spanish through comprehensible input. 🇪🇸
-
-<!--
-Optional: add GitHub stats cards once you have more activity.
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=p-ragudo&show_icons=true&theme=transparent&hide_border=true" alt="GitHub stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=p-ragudo&layout=compact&theme=transparent&hide_border=true" alt="Top languages"/>
-</p>
--->
+**Off-Screen:** Traveling, photography, sketching/art, digging into good music, and picking up Spanish.
 
 ---
 
